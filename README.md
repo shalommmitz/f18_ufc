@@ -16,6 +16,8 @@ As part of a project in Ofek, a school for gifted Children in Jerusalem, we are 
       
    This is because the "RTS" signal is used as "reset" in the ESP2866
 
+   See esp8266_4alpha_display.ino for the Arduino code
+
 ### Connections:
 
 <br>
