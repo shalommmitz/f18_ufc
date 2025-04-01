@@ -10,6 +10,47 @@ As part of a project in Ofek, a school for gifted Children in Jerusalem, we are 
    2. Switches: list of pins used in Arduino
    3. Switches: Arduino project
 
+## ESP8266 as 10-alph-numeric display controller
+
+   It is important to turn off the "LiveSignalRts" check box in the DCS-BIOS Bridge
+      
+   This is because the "RTS" signal is used as "reset" in the ESP2866
+
+   See esp8266_10alpha_display.ino for the Arduino code
+
+### Connections:
+
+<br>
+
+
+<br>
+
+|ESP8266|Display name|Display pin #|
+| ----- |------------|-------------|
+|  5V | | |
+|  5V |BS1 | |
+|  G | |  |
+|  D1 | | |
+|  D2 | | |
+
+### Display Info
+
+  - Resolution: 128*32
+  - Color: green light
+  - Driver: SSD1307
+  - Grayscale: monochrome
+  - Product structure: COG+FPC
+  - Connection method: welding
+  - Driving voltage: 12V
+  - Interface: 6800/8080/SPI/I2C 
+
+### Refrences
+
+  - https://diyi0t.com/i2c-tutorial-for-arduino-and-esp8266
+  - https://lcddisplay.co/wp-content/uploads/2023/02/SSD1307.pdf
+  - https://www.displayfuture.com/Display/datasheet/controller/SSD1307.pdf
+
+
 ## ESP8266 as 4-alph-numeric display controller
 
    It is important to turn off the "LiveSignalRts" check box in the DCS-BIOS Bridge
@@ -22,12 +63,12 @@ As part of a project in Ofek, a school for gifted Children in Jerusalem, we are 
 
 <br>
 
-|ESP8266|Display|
-| ----- |-------|
-|  5V | 2x +|
-|  G | -|
-|  D1 |C |
-|  D2 |D |
+| I2C |ESP8266| 4 Disp|
+| ----| ----- |-------|
+| Vcc |  5V | 2x +|
+| Gnd |  G | -|
+| SCL |  D1 |C |
+| SDA |  D2 |D |
 
 ### ESP8266 and Display Refernces
 
