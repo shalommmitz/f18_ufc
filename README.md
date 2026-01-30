@@ -74,6 +74,35 @@ As part of a project in Ofek, a school for gifted Children in Jerusalem, we are 
 | SDA |  D2 |D |
 
 
+## Switches contols
+
+Connections map:
+
+|Side |????|?????|
+|-----|----|-----|
+|Right|D23|EM com|
+|Right|D22UP|Option button 1|
+|Right|D21UP|OB2|
+|Right|D19|OB3|
+|Right|D18|OB4|
+|Right|D5|OB5|
+|Right|D17|7|
+|Right|D16|4|
+|Right|D4|CLR|
+|Right|D2|1|
+|Right|D15|–|
+|Right|D22DOWN|1|
+|Right|D21DWON|4|
+|Left|D34|2|
+|Left|D35|5|
+|Left|D32|8|
+|Left|D33|0|
+|Left|D25|3|
+|Left|D26|6|
+|Left|D26|9 |
+|Left|D14|ENT|
+|Left|D12|I/P|
+
 ### Refrences
 
   - https://diyi0t.com/i2c-tutorial-for-arduino-and-esp8266
